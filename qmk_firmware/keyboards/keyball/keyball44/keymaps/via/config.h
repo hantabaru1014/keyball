@@ -33,6 +33,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#    define RGBLIGHT_EFFECT_TWINKLE
 #endif
 
+// PC起動/KVMスイッチ時にキーボードとして認識されないことがある対策
+// https://github.com/Yowkees/keyball/discussions/704
+#define WAIT_FOR_USB
+
 #define TAP_CODE_DELAY 5
 
 #define POINTING_DEVICE_AUTO_MOUSE_ENABLE
